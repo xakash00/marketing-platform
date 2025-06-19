@@ -22,10 +22,10 @@ export default async function ProfilePage() {
                 <div className="flex flex-col items-center mb-6">
                     <Image
                         src={user.avatar}
-                        width={24}
-                        height={24}
                         alt="Profile"
-                        className="w-24 h-24 rounded-full border-4 border-emerald-200 mb-4 object-cover"
+                        width={96}
+                        height={96}
+                        className="rounded-full border-4 border-emerald-200 mb-4 object-cover"
                     />
                     <h2 className="text-2xl font-bold text-emerald-800 mb-1">{user.name}</h2>
                     <p className="text-emerald-600">{user.email}</p>
